@@ -10,8 +10,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Public\components\" />
-    <Folder Include="Public\fonts\" />
+    <Folder Include="public\fonts\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>

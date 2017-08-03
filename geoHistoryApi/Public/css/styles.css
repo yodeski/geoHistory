@@ -220,6 +220,9 @@ section, *:before, *:after {
     font-weight: 400;
 }
 
+
+/***/
+
 .tooltip-measure {
     opacity: 1;
     font-weight: bold;
