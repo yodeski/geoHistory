@@ -1,9 +1,9 @@
 C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.deps.json
-C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.runtimeconfig.json
-C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.runtimeconfig.dev.json
 C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.dll
 C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.pdb
 C:\Projects\geoHistory\geoHistoryApi\obj\Debug\netcoreapp1.1\geoHistoryApi.csprojResolveAssemblyReference.cache
 C:\Projects\geoHistory\geoHistoryApi\obj\Debug\netcoreapp1.1\geoHistoryApi.AssemblyInfo.cs
 C:\Projects\geoHistory\geoHistoryApi\obj\Debug\netcoreapp1.1\geoHistoryApi.dll
 C:\Projects\geoHistory\geoHistoryApi\obj\Debug\netcoreapp1.1\geoHistoryApi.pdb
+C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.runtimeconfig.json
+C:\Projects\geoHistory\geoHistoryApi\bin\Debug\netcoreapp1.1\geoHistoryApi.runtimeconfig.dev.json

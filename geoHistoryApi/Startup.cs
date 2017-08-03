@@ -42,10 +42,11 @@ namespace geoHistoryApi
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            /*app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
                 ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
             });
+            */
 
             if (env.IsDevelopment())
             {
