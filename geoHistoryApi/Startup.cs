@@ -58,12 +58,13 @@ namespace geoHistoryApi
             }
 
             app.UseStaticFiles();
+            
             app.UseStaticFiles(new StaticFileOptions()
             {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"Public")),
-                RequestPath = new PathString("/Public")
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"public")),
+                RequestPath = new PathString("/public")
             });
-
+            app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
