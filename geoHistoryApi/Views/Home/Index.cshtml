@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div ng-controller="CtrlResume" ng-class="classLayout">
+    <div id='map' class="map"></div>
+    <div id='features' anchor-scroll-y-offset>
+        <section ng-repeat="section in sections" id="sect{{section.sectionId}}"
+                 ng-class="{'active': section.sectionOrder==1}">
+            <span ng-bind-html="section.sectionImage"></span>
+            <span ng-bind-html="section.sectionText"></span>
+            <div class="place" ng-repeat="place in section.places"
+                 id="{{place.placeId}}"
+                 data-sectionid="sect{{section.sectionId}}"
+                 data-placename={{place.placeName}}
+                 data-lat={{place.lat}}
+                 data-lon={{place.lon}}
+                 data-zoom={{place.zoom}}
+                 data-bearing={{place.bearing}}
+                 data-pitch={{place.pitch}}>
+                <span ng-bind-html="place.placeText"></span>
+            </div>
+        </section>
+        <a id="btnUp" href="#" ng-click="doUp(currSectionid, currPlaceid)"><span></span><span></span><span></span></a>
+        <a id="btnDown" href="#" ng-click="doDown(currSectionid, currPlaceid) "><span></span><span></span><span></span></a>
+    </div>
+</div>
