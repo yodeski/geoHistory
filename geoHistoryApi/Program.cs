@@ -15,7 +15,7 @@ namespace geoHistoryApi
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
+                //.UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseUrls("http://localhost:8888")
                 .Build();

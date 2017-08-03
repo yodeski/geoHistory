@@ -57,6 +57,8 @@ namespace geoHistoryApi
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseFileServer(enableDirectoryBrowsing: true);
+
             app.UseStaticFiles();
             
             app.UseStaticFiles(new StaticFileOptions()
