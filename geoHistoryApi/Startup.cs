@@ -59,13 +59,14 @@ namespace geoHistoryApi
 
             //app.UseFileServer(enableDirectoryBrowsing: true);
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
             
-            app.UseStaticFiles(new StaticFileOptions()
+            /*app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"public")),
                 RequestPath = new PathString("/public")
-            });
+            });*/
+
             app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {
